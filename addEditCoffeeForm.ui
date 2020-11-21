@@ -21,14 +21,31 @@
     <item>
      <widget class="QPushButton" name="pushButton">
       <property name="text">
-       <string>Получить данные с ближайшей кофейни</string>
+       <string>Показать БД</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="goOnForm">
+     <widget class="QPushButton" name="addNewLine">
       <property name="text">
-       <string>Расширенный режим</string>
+       <string>Добавить строку</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="loadButton">
+      <property name="text">
+       <string>Выгрузить в БД</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
     </item>
